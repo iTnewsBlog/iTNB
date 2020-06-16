@@ -1,0 +1,40 @@
+function backToTop() {
+    let button = $('.back-to-top');
+
+    $(window).on('scroll', () => {
+        if ($(this).scrollTop() >= 500){
+            button.fadeIn();
+        } else {
+            button.fadeOut();
+        }
+    });
+
+    button.on('click', (e) => {
+        e.preventDefault();
+        $('html').animate({scrollTop: 0}, 1000);
+        $('body').animate({scrollTop: 0}, 1000);
+    });
+ }
+
+ backToTop();
+
+ function backToOglav() {
+    let button = $('.back-to-oglav');
+
+    $(window).on('scroll', () => {
+        if ($(this).scrollTop() >= 1200){
+            button.fadeIn();
+        } else {
+            button.fadeOut();
+        }
+    });
+
+    
+ }
+
+ backToOglav();
+
+ jQuery(document).ready(function($){
+    var url = document.location.href;
+    new Clipboard('.modal-btn', {text: function(){ return url;}});
+    });

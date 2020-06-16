@@ -1,0 +1,554 @@
+body{
+    background-color: #f5f5f5;
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+header .navbar-light{
+    background-color: #0a111b;
+}
+
+header .navbar-brand{
+    font-size: 30px;
+}
+
+header .nav-item{
+    text-transform: uppercase;
+    margin-right: 20px;
+    text-decoration-color: #fff;
+}
+
+header .nav-item a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #e2223f;
+    height: 2px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+header .nav-item a:hover::after{
+    transform: scale(1);
+}
+
+  .carousel-item img {
+      height: 600px;
+      width: 100%;
+      object-fit: cover;
+  }
+
+.btn-11 a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 17px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 7px;
+    margin-top: 25px;
+    width: 180px;
+    height: 45px;
+}
+
+.btn-11 a:hover{
+    background-color: #e2223f;
+}
+.btn-11{
+    width: 450px;
+}
+
+.display_2{
+margin-bottom: 50px;
+margin-left: 100px;
+
+}
+
+.carousel-caption h3{
+    width: 500px;
+    text-align: left;
+    
+}
+
+.display_2 h1,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-align: left;
+}
+
+.singl-category{
+    font-family: 'Nunito', sans-serif;
+    
+    margin-bottom: 50px;
+    
+}
+.singl-category .card{
+    border-radius: 0%;
+    border: 0px;
+}
+
+.singl-text .s1{
+    font-size: 17px;
+    margin-right: 10px;
+    color: #9b9fa3;
+    
+}
+
+.singl-text a{
+margin-bottom: 15px;
+}
+
+.singl-text .s1:hover{
+    text-decoration-color: #e2223f;
+    color: #ffffff;
+}
+
+.singl-category .btn{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    
+}
+
+.singl-category .btn:hover{
+    background-color: #e2223f;
+}
+
+
+.grid-posts{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.grid-posts .card img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 0%;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+.grid-posts .card .card-body{
+    height: 200px;
+}
+
+.card-body .line-card{
+    margin-left: 18px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.grid-posts .card{
+    border-radius: 0%;
+}
+
+.grid-posts .card-title{
+    height: 14px;
+    width: 300px;
+}
+
+.grid-posts .card-text{
+    height: 70px;
+    width: 359px;
+    margin-bottom: 21px;
+}
+
+.grid-posts .card-teg{
+    font-size: 15px;
+    height: 25px;
+    width: 350px;
+    margin-left: 16px;
+}
+
+.grid-posts .bottom{
+    margin-bottom: 13px;
+}
+
+.namber .nam{
+    font-family: 'Nunito', sans-serif;
+    font-style: Medium;
+    font-size: 16px;
+}
+
+.namber .next{
+    margin-right: 20px; 
+    border-radius: 20px 20px 20px 20px;
+    border: 0px;
+    width: 135px;
+    height: 37px; 
+    background: #0a111b;
+}
+
+.nam .btn{
+    background: #0a111b;
+    text-decoration: none;
+    border-radius: 20px 20px 20px 20px;
+}
+
+a.knopka {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: #0a111b;
+    padding: .7em 1.5em;
+    border-radius: 20px 20px 20px 20px;
+  } 
+
+a.knopka:hover {
+    background: #e2223f; 
+}
+
+.namber{
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #0a111b;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    padding: 50px;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+footer p{
+    color: #9b9fa3;;
+}
+
+footer .footer-centre p{
+    width: 450px;
+}
+
+footer a:hover{
+    color: #e2223f;
+}
+
+
+.bottom-img .card{
+    border: 0px;
+    border-radius: 0%;
+}
+.bottom-img img{
+    border: 0px;
+    border-radius: 0%;
+    height: 420px;
+    object-fit: cover;
+    width: 100%;
+}
+.card-img-overlay{
+    text-align: center;
+    z-index: 3;
+    color: #fff;  
+}
+.bottom-img .bg-d:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+  }
+  
+  .bottom-img1 .card{
+    border: 0px;
+    border-radius: 0%;
+}
+.bottom-img1 img{
+    border: 0px;
+    border-radius: 0%;
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.bottom-img1 .bg-d:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.2);
+    z-index: 2;
+  }
+
+  .posts-text1{
+      margin-top: 35px;
+      
+  }
+
+  .modal-btn{
+      font-size: 16px;
+  }
+
+    .posts-text1-r a::after{
+        content: '';
+        display: block;
+        width: 100%;
+        background-color: #e2223f;
+        height: 2px;
+        transform: scale(0);
+        transition: all .3s;
+}
+
+    .posts-text1-r a:hover::after{
+        transform: scale(1);
+        color: #e2223f;
+    }
+    
+    .modal{
+        
+        background: rgba(0,0,0,.5);
+    }
+
+.back-to-top{
+    position: fixed;
+    right: 250px;
+    bottom: 500px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.199);
+    display: none;
+}
+
+.back-to-top:hover,
+.back-to-top:focus{
+    background-color: #e2223f;
+    outline: none;
+
+}
+
+.back-to-oglav{
+    position: fixed;
+    right: 250px;
+    bottom: 600px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.199);
+    display: none;
+}
+
+.back-to-oglav:hover,
+.back-to-oglav:focus{
+    background-color: #e2223f;
+    outline: none;
+
+}
+
+.posts-text1 .oglav-ot{
+   
+    font-size: 23px;
+}
+
+.oglav-text a{
+    color: #0a111b;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 27px;
+    
+}
+
+.og-text{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #e2223f;
+}
+
+
+.oglav-text a:hover{
+    text-decoration-color: #e2223f;
+}
+
+.modal-btn a{
+    color: #0a111b;
+}
+
+.modal-btn a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #e2223f;
+    height: 2px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+.modal-btn a:hover::after{
+    transform: scale(1);
+    color: #e2223f;
+}
+
+.patern{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.patern .card img{
+    border: 0px;
+    border-radius: 0%;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+.patern .card{
+    border: 0px;
+    border-radius: 0%;
+}
+.patern .card-text a{
+text-decoration: none;
+color: #ffffff;
+}
+
+.patern .card-text a:hover{
+    color: #e2223f;
+}
+
+.info p{
+ margin-left: 15px;
+ margin-right: 15px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+.ss a{
+    color: #9b9fa3;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    
+
+}
+
+.card-title .ss a{
+    color: #ffffff;
+}
+.posts-text1 .row p{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.games a{
+    color: #9b9fa3;
+}
+
+.games a:hover{
+    text-decoration-color: #e2223f;
+    color: #0a111b;
+}
+
+.comment-posts{
+    width: 1000px;
+}
+
+.posts-text1{
+    background-color: #ffffff;
+    width: 1000px;
+}
+
+.posts-text1c{
+    width: 900px;
+}
+
+.ssil i:hover{
+color: #e2223f;
+}
+.ssil i{
+    color: #ffffff;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.bloc-ss p:hover{
+background-color: #e2223f;
+}
+
+.bloc-ss a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1710px) {
+    .back-to-top{
+        position: fixed;
+        right: 50px;
+        bottom: 500px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.199);
+        display: none;
+    }
+    
+    
+    .back-to-oglav{
+        position: fixed;
+        right: 50px;
+        bottom: 600px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.199);
+        display: none;
+    }
+}
+
+@media (min-width: 1981px) {
+    .back-to-top{
+        position: fixed;
+        right: 300px;
+        bottom: 500px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.199);
+        display: none;
+    }
+    
+    
+    .back-to-oglav{
+        position: fixed;
+        right: 300px;
+        bottom: 600px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.199);
+        display: none;
+    }
+}
+
+
+
+
+
+

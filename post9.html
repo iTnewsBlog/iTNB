@@ -133,7 +133,7 @@
     <div class="modal-btn">
     <a href="#coment" type="button" style="text-decoration: none; font-family: 'Nunito', sans-serif; font-style: normal; font-size: 17px;">
       <i class="fas fa-chevron-down"></i>
-      Коментарии
+      Комментарии
     </a>
   </div>
 
@@ -411,19 +411,19 @@
 </div>
 </div>
 
-<div class="comment-posts container">
+<div class="comment-posts container" style="background-color: #f5f5f5;">
 
   <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
   <script type="text/javascript">
     VK.init({apiId: 7513126, onlyWidgets: true});
   </script>
   
-  <div id="vk_comments"></div>
+  <div id="vk_comments"><p id="coment"></p></div>
   <script type="text/javascript">
   VK.Widgets.Comments("vk_comments", {limit: 20, attach: "*"});
   </script>
-
-</div>
+  
+  </div>
 
 <div class="patern" style="margin-top: 50px;">
   <div class="card text-white">
